@@ -1,0 +1,85 @@
+@import "variables";
+@import "breakpoints";
+@import "mixins";
+body{
+	font-size: 16px;
+	margin:0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+*{
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.statusBar{
+	font-size: 2rem;
+	@include flex;
+	@include center;
+	@include media-breakpoint-up(xs) {
+        height: 32px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        height: 64px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        height: 90px;
+    }
+    .statusContent{
+    	@include flex;
+    	@include middle;
+    	color: $black;
+    	@include media-breakpoint-up(xs) {
+	        width: 100%;
+	        font-size: 1.5rem;
+	    }
+
+	    @include media-breakpoint-up(lg) {
+	        width: 850px;
+	    }
+
+	    @include media-breakpoint-up(xxl) {
+	        width: 1200px;
+	    }
+	    .phoneEmpay{
+	    	margin-right: 50px;
+	    }
+	    .mailEmpay{
+	    	margin-right: 50px;
+	    }
+	    .linkEmpay{
+	    	margin-left: auto;
+	    }
+    }
+}
+.headerBar{
+	background-color: $blue;
+	@include flex;
+	@include middle;
+	@include center;
+	@include media-breakpoint-up(xs) {
+        height: 64px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        height: 64px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        height: 90px;
+    }
+    .headerContent{
+    	@include media-breakpoint-up(xs) {
+	        width: 100%;
+	    }
+
+	    @include media-breakpoint-up(lg) {
+	        width: 850px;
+	    }
+
+	    @include media-breakpoint-up(xxl) {
+	        width: 1200px;
+	    }
+    }
+}

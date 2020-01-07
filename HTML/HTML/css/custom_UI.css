@@ -1,0 +1,83 @@
+body {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif; }
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
+
+.statusBar {
+  font-size: 2rem;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  height: 32px; }
+  @media (min-width: 992px) {
+    .statusBar {
+      height: 64px; } }
+  @media (min-width: 1920px) {
+    .statusBar {
+      height: 90px; } }
+  .statusBar .statusContent {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    color: #151515;
+    width: 100%;
+    font-size: 1.5rem; }
+    @media (min-width: 992px) {
+      .statusBar .statusContent {
+        width: 850px; } }
+    @media (min-width: 1920px) {
+      .statusBar .statusContent {
+        width: 1200px; } }
+    .statusBar .statusContent .phoneEmpay {
+      margin-right: 50px; }
+    .statusBar .statusContent .mailEmpay {
+      margin-right: 50px; }
+    .statusBar .statusContent .linkEmpay {
+      margin-left: auto; }
+
+.headerBar {
+  background-color: #3f42dd;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  height: 64px; }
+  @media (min-width: 992px) {
+    .headerBar {
+      height: 64px; } }
+  @media (min-width: 1920px) {
+    .headerBar {
+      height: 90px; } }
+  .headerBar .headerContent {
+    width: 100%; }
+    @media (min-width: 992px) {
+      .headerBar .headerContent {
+        width: 850px; } }
+    @media (min-width: 1920px) {
+      .headerBar .headerContent {
+        width: 1200px; } }
+
+/*# sourceMappingURL=custom_UI.css.map */
